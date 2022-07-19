@@ -11,8 +11,8 @@
           <include name="beforeS"/>
           <include name="afterSuite"/>
           <include name="test2"/>
-          <include name="InitBrowser"/>
           <include name="obj"/>
+          <include name="InitBrowser"/>
         </methods>
       </class> <!-- test.Testclass -->
     </classes>

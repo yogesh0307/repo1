@@ -15,6 +15,7 @@ public class Driver {
   
   @BeforeSuite
   public void InitBrowser() {
+	  //init method in before suite
 	  WebDriverManager.chromedriver().setup();
 	  W=new ChromeDriver();
 	  W.manage().window().maximize();
